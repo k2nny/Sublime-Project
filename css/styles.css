@@ -1,11 +1,34 @@
-div{
-	border: 1px solid black;
+
+body{
+	margin: 0;
+	background-color: #555555;
+	color: black;
+	font: serif;
 }
-font-family: serif;
+
 
 header{
-	background-color: #5865f2;
+	margin: 0;
+	background-color: black;
 	color: #16c60c;
-	font-size: 70px;
+	font-size: 50px;
+	margin: 0;	
+}
 
+
+h1{
+	text-align: center;
+}
+
+
+header img {
+	max-height: 5vh ;
+	max-width: 5vh;
+	text-align: left;
+	background-color: black;
+}
+
+main div{
+	max-height: 400px;
+	max-width: 400px;
 }
